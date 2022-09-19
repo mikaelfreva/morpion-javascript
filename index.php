@@ -10,16 +10,18 @@
 </head>
 <body>
   <div class="board" id="board">
-    
-    <div class="cell" data-cell></div>
-    <div class="cell" data-cell></div>
-    <div class="cell" data-cell></div>
-    <div class="cell" data-cell></div>
-    <div class="cell" data-cell></div>
-    <div class="cell" data-cell></div>
-    <div class="cell" data-cell></div>
-    <div class="cell" data-cell></div>
-    <div class="cell" data-cell></div>
+
+  <?php
+  for ($i = 1; $i <= 9; $i++) {
+    echo $i;
+} 
+  ?>
+      <div class="cell" data-cell></div>
+
+  <?php
+  ?>
+  
+
   </div>
   <div class="winning-message" id="winningMessage">
     <div data-winning-message-text></div>
