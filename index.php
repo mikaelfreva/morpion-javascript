@@ -13,12 +13,13 @@
 
   <?php
   for ($i = 1; $i <= 9; $i++) {
-    echo $i;
-} 
+
   ?>
-      <div class="cell" data-cell></div>
+     
+     <div class="cell" data-cell></div>
 
   <?php
+  } 
   ?>
   
 
